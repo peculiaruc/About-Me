@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="peculiar_c_umeh">Peculiar C. Umeh</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="hi_my_name_is_peculiar_c">Hi! My name is Peculiar C.
+
+\n\nI am an Android Developer.
+\nAm passonate about Tech.
+\nMy journey in tech far has been learning and learning. This year is about giving out what i have learned.
+
+\n\nI like coaching and mentoring, that is giving back to the community\n\n</string>
+    <string name="what_is_tyour_nickname">What is tyour nickname?</string>
+    <string name="button">Button</string>
+    <string name="done">Done</string>
+
+
+</resources>
