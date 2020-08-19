@@ -12,7 +12,7 @@
         style="@style/NameStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="16dp"
         android:text="@string/peculiar_c_umeh"
         app:fontFamily="@font/roboto"
         app:layout_constraintHorizontal_bias="0.498"
@@ -24,23 +24,18 @@
         android:id="@+id/imageView3"
         android:layout_width="65dp"
         android:layout_height="0dp"
-        android:layout_marginTop="24dp"
         android:contentDescription="@string/yellow_star"
         android:paddingTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_text"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_textview"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <ScrollView
-        android:layout_width="419dp"
-        android:layout_height="502dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,22 +50,59 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
+            android:paddingStart="8dp"
             android:paddingLeft="8dp"
             android:paddingTop="8dp"
             android:text="@string/hi_my_name_is_peculiar_c"
             android:textColor="#090808"
-            android:textSize="18sp"
-            android:paddingStart="8dp" />
+            android:textSize="18sp" />
     </ScrollView>
 
     <TextView
         android:id="@+id/nickname_textview"
         style="@style/NameStyle"
-        android:layout_width="0dp"
-        android:layout_height="30dp"
+        android:layout_width="56dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/done_button" />
+
+    <EditText
+        android:id="@+id/nickname_editText"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/what_is_tyour_nickname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name_text" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:text="@string/done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nickname_editText" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

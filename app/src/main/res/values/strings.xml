@@ -4,35 +4,36 @@
     <string name="yellow_star">Yellow Star</string>
     <string name="hi_my_name_is_peculiar_c">   Hi! My name is Peculiar C.
 
-\n\n   I am an Android Developer (Kotlin and Java)
-\n     and passionate about anything Tech.
+\n\nI am an Android Developer (Kotlin and Java)
+\nand passionate about anything Tech.
 
-\n\n   I am a Speaker.(featured at Global Women
-\n     Conference organised by WomenTech
-\n     Network with a Topic: Kotlin Programming
-\n     Language: A Big Fix for Many Java Issues,
-\n     Women of GADS (Google Africa Developer
-\n     Scholarship) online sesseion.)
+\n\nI am a Speaker.(featured at Global Women
+\nConference organised by WomenTech
+\nNetwork with a Topic: Kotlin Programming
+\nLanguage: A Big Fix for Many Java Issues,
+\nWomen of GADS (Google Africa Developer
+\nScholarship) online sesseion.)
 
-\n\n   Am also a Lead. (At She Code Africa,
-\n     Port Harcourt Chapter, River State, Nigeria.
-\n     Leading a good number of female to achieve
-\n     their carrier goal in Tech.
+\n\nAm also a Lead. (At She Code Africa,
+\nPort Harcourt Chapter, River State, Nigeria.
+\nLeading a good number of female to achieve
+\ntheir carrier goal in Tech.
 
-\n\n   A mentor at Google Africa Developer
-\n     Scholarship 2020. Assisting learners to go
-\n     through the programme without hinches.
+\n\nA mentor at Google Africa Developer
+\nScholarship 2020. Assisting learners to go
+\nthrough the programme without hinches.
 
-\n     Former Intern at She Code Africa and Hotel NG.
+\nFormer Intern at She Code Africa and Hotel NG.
+\nI build apps with Java and Kotlin.
 
-\n\n   My journey in tech so far has been learning
-\n     and learning. This year is about giving out what
-\n     I have learned.
-;
-\n\n   I like coaching and mentoring, that is giving
- \n    back to the community.
- \n    Looking forward to work at Google and Andela.\n\n</string>
-    <string name="what_is_tyour_nickname">What is your nickname?</string>
+\n\nMy journey in tech so far has been learning
+\nand learning. This year is about giving out what
+\nI have learned.
+
+\n\nI like coaching and mentoring, that is giving
+ \nback to the community.
+ \nLooking forward to work at Google and Andela.\n\n</string>
+    <string name="what_is_tyour_nickname">Please, what is your nickname?</string>
     <string name="button">Button</string>
     <string name="done">Done</string>
 
