@@ -16,20 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.done_button).setOnClickListener {
-            addNickname(it)
-        }
-    }
-    private fun addNickname(view: View){
-        val editText = findViewById<EditText>(R.id.nickname_editText)
-        val textView = findViewById<TextView>(R.id.nickname_textview)
 
-        textView.text =editText.text
-        editText.visibility = View.GONE
-        view.visibility = View.GONE
-        textView.visibility = View.VISIBLE
-
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.hideSoftInputFromWindow(view.windowToken, 0)
     }
-}
+    }
