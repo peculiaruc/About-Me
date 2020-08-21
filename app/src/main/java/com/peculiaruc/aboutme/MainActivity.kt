@@ -16,10 +16,14 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val name: NameData = NameData("Peculiar C Umeh")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+
+        binding.nameData = name
 
 //        findViewById<Button>(R.id.done_button).setOnClickListener {
 //            addNickname(it)
@@ -34,11 +38,12 @@ class MainActivity : AppCompatActivity() {
     private fun addNickname(view: View) {
 
         binding.apply {
-            binding.nicknameTextview.text = nickname_editText.text
+            //nicknameTextview.text = nickname_editText.text
+            nameData?.nickname = nicknameEditText.text.toString()
             invalidateAll()
-            binding.nicknameEditText.visibility = View.GONE
-            binding.doneButton.visibility = View.GONE
-            binding.nicknameTextview.visibility = View.VISIBLE
+            nicknameEditText.visibility = View.GONE
+            doneButton.visibility = View.GONE
+            nicknameTextview.visibility = View.VISIBLE
 
         }
 
